@@ -67,9 +67,9 @@ with st.form("customer_form"):
     with u2:
         online_backup = st.selectbox("Online Backup", ["Yes", "No"])
     with u3:
-        device_protection = st.selectbox("Device Protection", ["Yes", "No"])
+        device_protection = st.selectbox("Device Protection Plan", ["Yes", "No"])
     with u4:
-        tech_support = st.selectbox("Tech Support", ["Yes", "No"])
+        tech_support = st.selectbox("Premium Tech Support", ["Yes", "No"])
 
     u5, u6, u7, u8 = st.columns(4)
     with u5:
